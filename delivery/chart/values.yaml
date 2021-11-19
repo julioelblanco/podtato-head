@@ -11,32 +11,32 @@ images:
 # keep ports in sync with podtato-services/main/pkg/provider.go
 main:
   repositoryBasename: podtato-main
-  tag: "v1-latest-dev"
+  tag: "v2-latest-dev"
   serviceType: ClusterIP
   servicePort: 9000
 hats:
   repositoryBasename: podtato-hats
-  tag: "v1-latest-dev"
+  tag: "v2-latest-dev"
   serviceType: ClusterIP
   servicePort: 9001
 leftLeg:
   repositoryBasename: podtato-left-leg
-  tag: "v1-latest-dev"
+  tag: "v2-latest-dev"
   serviceType: ClusterIP
   servicePort: 9002
 leftArm:
   repositoryBasename: podtato-left-arm
-  tag: "v1-latest-dev"
+  tag: "v2-latest-dev"
   serviceType: ClusterIP
   servicePort: 9003
 rightLeg:
   repositoryBasename: podtato-right-leg
-  tag: "v1-latest-dev"
+  tag: "v2-latest-dev"
   serviceType: ClusterIP
   servicePort: 9004
 rightArm:
   repositoryBasename: podtato-right-arm
-  tag: "v1-latest-dev"
+  tag: "v2-latest-dev"
   serviceType: ClusterIP
   servicePort: 9005
 
